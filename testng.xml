@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="Com.Ecommerce.Utilitities.Listners"></listener>	
+	</listeners>
+	<parameter name="Browser" value="Chrome"></parameter>
+	<test thread-count="5" name="Test">
+		<classes>
+			<!--class name="Com.Ecommerce.TestCases.TC_LoginTestcase"/-->
+			<!--class name="Com.Ecommerce.TestCases.TC_AddToCart"/-->
+			<!--class name="Com.Ecommerce.TestCases.TC_Wishlist"/-->
+			<!--class name="Com.Ecommerce.TestCases.TC_Registration"/-->
+			<!--class name="Com.Ecommerce.TestCases.TC_Filterbaseproduct"/-->
+			<!--class name="Com.Ecommerce.TestCases.TC_LoginDataTestCase"/-->
+			<!--class name="Com.Ecommerce.TestCases.TC_SortProduct"/-->
+			<!--class name="Com.Ecommerce.TestCases.TC_AddReview"/-->
+			<class name="Com.Ecommerce.TestCases.SampleTC_logindata"/>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
