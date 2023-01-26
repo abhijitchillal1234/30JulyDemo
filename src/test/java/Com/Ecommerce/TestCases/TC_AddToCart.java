@@ -50,6 +50,8 @@ public class TC_AddToCart extends Ecommerce_BaseClass {
 
 		TEA.Close();
 		logger.info("Clciked on close Tab");
+		
+		System.out.println("Hello");
 
 	}
 
